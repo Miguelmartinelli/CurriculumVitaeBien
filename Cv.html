@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="CSS/extra.css" rel="stylesheet" type="text/css">
+<link href="CSS/unslider.css" rel="stylesheet" type="text/css">
+<meta charset="UTF-8">
+</head>
+<style>
+body{ background-color:#D2FFF3;
+}
+.navegacion a {
+				color:black;
+				font-size:20px;
+				font-family:Calibri;
+				font-weight: bold;
+				margin-right: 30px;
+}				
+.navegacion{width: 35%;
+			border: 2px solid #3065A3;
+			float:left;
+			background-color:#D2FFF3;
+			margin-right:10%;
+			clear:right;
+			}
+.navegacion img{ max-width: 100%;
+				max-height: 10%;
+			
+}
+.navegacion li{ 
+				list-style-type:none;}
+.seccion{
+				width: 50%;	
+				padding:2%;
+				margin-bottom:5%;
+				float:right;
+				background-color: #e6fff7;
+				border-radius: 10px 10px 10px 10px;
+				-moz-border-radius: 10px 10px 10px 10px;
+				-webkit-border-radius: 10px 10px 10px 10px;
+				border: 2px solid #3065A3;}
+.seccion h1{
+	color:#5D56E8;
+	font-family:Antiqua,Comic Sans;
+	font-size:36px;
+	margin-top:0px;	
+	border-bottom: 1px solid #5D56E8;
+	}
+.seccion h2{
+color:#3065A3;
+font-family:Fantasía,Impact;
+font-size:60px;
+}
+.seccion h3{
+color:#1A3759;
+font-weight: bold;
+font-family: Antiqua,Comic Sans;
+font-size: 30px;
+}
+.seccion ul{
+color:#17314F;
+font-size:20px;
+font-family:Monoespaciado,Modern;
+list-style-type:none;}
+.seccion li{
+border-bottom: 1px solid #17314F;
+list-style-type:none;]
+}
+.seccion p{
+color:#5D56E8;
+font-size:25px;
+font-family:Suiza,Arial
+font-weight: bold;
+}
+.seccion h4{ color:white;
+			font-weight: bold;
+			border:none
+			background-color=".navegacion"
+			magin-left: 40%;
+			margin-right:30%;
+}
+
+</style>
+<title> CV </title>
+</head>
+<body>
+
+<div class="navegacion"> 
+<img src="https://scontent-gru2-1.cdninstagram.com/t51.2885-15/e35/12568102_574008832758129_637132575_n.jpg">
+<ul>
+<li> <a href="#Presentacion"> Presentación</a></li>
+<li> <a href="#Formacion"> Formación </a></li>
+<li> <a href="#Experiencia"> Experiencia </a></li>
+<li> <a href=" #portfolio"> Portfolio </a></li>
+</div>
+
+<div class="seccion" id="Presentacion">
+<h1> Quién soy?</h1>
+<h2> Miguel Martinelli</h2>
+
+<ul>
+<li> Nombre: Miguel Martinelli </li>
+<li> Edad: 18</li>
+<li> Dirección: Santo Tome 3254, Capital Federal</li>
+<li> Email: miguemartinelli@gmail.com</li>
+<li> Teléfono celular: 1554848688</li>
+</ul>
+<p> Soy una persona que tiene mucha curiosidad por seguir aprendiendo y desarrollandome dentro de una empresa en la que pueda ocupar un lugar por un plazo prolongado. Actualmente estoy cursando el ultimo año de la Escuela Tecnica numero 24 DE 17 y pienso el año siguiente estudiar la carrera de Ingenieria Industrial. Me considero muy interesado por el trabajo grupal ya que es es una buena forma de innovar y ampliar conocimientos. </p>
+</div>
+<div class="seccion" id="Formacion">
+<h1 id="Formacion"> Formación</h1>
+<h3> Técnico en Administracion de Empresas</h3>
+<p> 2012-Actualidad</p>
+<h3> Front-End Jr </h3>
+<p> Abril 2017- Actualidad</p>
+</div>
+<div class="seccion" id="Experiencia">
+<h1 id="Experiencia"> Experiencia </h1>
+<p>  Como actualmente estoy cursando la secundaria todavia no tuve la oportunidad de ejercer lo aprendido en ella, pero tengo muchas ganas de empezar y seguir aprendiendo trabajando en grupo</p>
+</div>
+
+<div class ="seccion" id="portfolio">
+	<h1> Portfolio  </H1>
+	<div class="slider">
+		<ul>
+			<li> Noticias </li>
+			<li> Puzzle </li>
+		</ul>
+	</div>
+</div>
+<div class="seccion"> <h4> <a href="#Presentacion"> Volver al Inicio</a> </h4>
+</div>
+<script type="text/javascript"
+src="js/jquery.min.js"></script>
+
+<script type="text/javascript"
+src="js/unslider.js"></script>
+<script>
+	$('.slider').unslider({
+	arrows:false,
+	autoplay:true
+	});
+</script>
+</body>
+</html>
